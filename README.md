@@ -93,6 +93,7 @@ Everything the top navigation features with the DavinaLeilaniBlooms logo display
 - CTA's Call To Actions Button that change color on hover overlay two images stacked one after the other, finishing off the page inviting the viewer to delve deeper
 
 !['Home' page features](/assets/images/home-page.png)
+!['Home' page features](/assets/images/cta-end-home-page.png)
 
 The 'Contact' page:
 - Website offers multiple avenues for prospective clients to connect, ensuring convenient and professional communication.
