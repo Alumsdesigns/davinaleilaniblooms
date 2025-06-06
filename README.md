@@ -180,6 +180,9 @@ Designed for intuitive user experience, the website features a clear navigation 
   - Includes a follow-up page for detailed event information.
 
 ---
+# 3. Design
+*(Details about design structure, wireframes, colour scheme, typography, imagery, and icons can be added here once defined.)*
+
 ## Wireframes
 - ['Home' Page Wireframe](/assets/images/wireframes/home-page-wireframe.png)
 - ['About' Page Wireframe](/assets/images/wireframes/About-page-wireframe.png)
@@ -220,15 +223,12 @@ Google Material Icons — used for contact details and location (e.g., <span cla
 
 
 
-# 3. Design
-*(Details about design structure, wireframes, colour scheme, typography, imagery, and icons can be added here once defined.)*
-
 ---
 
 # 4. Technologies Used
-HTML - to create the structure of the website.
+HTML and HTML5 - to create the structure of the website.
 
-CSS - to add style to the website.
+CSS AND ccs - to add style to the website.
 
 [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - used to help test features and for debugging.
 
@@ -242,23 +242,11 @@ CSS - to add style to the website.
 
 [GitPod](https://gitpod.io/) - development hosting platform used to create the website.
 
-[Balsamiq](https://balsamiq.com/) - used to create Wireframes for the layout of the pages.
-
 [Coolors](https://coolors.co/) - used to create the colour palette.
 
 [Pexels](https://www.pexels.com/) - used to source images.
 
 [Unsplash](https://unsplash.com/) - used to source images.
-
-[Rawpixel](https://www.rawpixel.com/) - used to source images.
-
-[Microsoft Photos](https://apps.microsoft.com/store/detail/microsoft-photos/9WZDNCRFJBH4) - used to edit images.
-
-[CloudConvert](https://cloudconvert.com/) - used to convert images to webp format.
-
-[Tiny PNG](https://tinypng.com/) - used to compress images.
-
-[Am I Responsive](https://ui.dev/amiresponsive) - To view the website on a range of devices and create the mock-up screenshot image.
 
 [The W3C Markup Validation Service](https://validator.w3.org/) - Used to validate HTML files.
 
@@ -273,8 +261,44 @@ CSS - to add style to the website.
 ---
 
 # 5. Testing
-*(Details on functional testing, compatibility testing, validator testing, and performance tools can be added here.)*
 
+This project underwent thorough testing to ensure functionality, responsiveness, and adherence to web standards across different environments.
+
+Validators Used
+W3C HTML Validator: Used to check the structural integrity and validity of the HTML markup.
+W3C CSS Validator: Employed to validate CSS syntax and ensure compliance with web standards.
+Development and Live Server Environments
+Live Server VS Code Extension: Utilized during development for real-time browser reloading and efficient local testing.
+python3 -m http.server: A simple Python HTTP server used for local hosting and testing, especially when checking resource paths and form submissions.
+Browser Compatibility Testing
+The website's rendering and functionality were tested across the following major browsers to ensure a consistent user experience:
+
+Google Chrome (Developer Tools): Extensive testing and debugging were performed using Chrome's built-in developer tools.
+Mozilla Firefox (Developer Tools): Cross-browser compatibility was verified, with Firefox's developer tools used for specific debugging.
+Apple Safari (Developer Tools): Tested on macOS to ensure proper rendering and functionality on WebKit-based browsers.
+
+
+### Manual User Testing Table
+| ID  | Test Label              | Steps                                                                 | Expected Outcome                                                        |
+|-----|-------------------------|-----------------------------------------------------------------------|-------------------------------------------------------------------------|
+| T01 | Navigation - navbar     | Click each navbar link (Home, About, Portfolio...)                   | User is navigated to the correct page each time.                        |
+| T02 | Navigation - Social     | Click each social media icon in the footer and...                    | Link opens correct social page in a new tab.                            |
+| T03 | Navigation - Google map | On Contact page, click the address link.                             | Google Maps opens in a new tab with correct location.                  |
+| T04 | Navigation - Hamburger  | On mobile/tablet, open and close the hamburger.?                    | Overlay nav opens/closes smoothly, all links are usable.               |
+| T05 | UX - Hero Video         | On Home, check hero video loads and overlay text is readable.?     | Video is visible, plays, and text is legible over it.                  |
+| T06  | UX - Scroll                  | Scroll up/down across all pages.                                         | Page scrolls smoothly without layout breakage.                                                 |
+| T07  | UX - Animations              | Interact with animated elements (hover effects, transitions, etc).       | Animations are smooth and enhance usability.                                                   |
+| T08  | Forms - Validation           | Submit contact form with missing/invalid fields.                         | Appropriate error messages appear, form not submitted.                                         |
+| T09  | Forms - Success Submission   | Fill and submit contact form with valid inputs.                          | Confirmation message appears, form clears or disables.                                         |
+| T10  | Responsiveness - Desktop     | View site on desktop resolution.                                         | Layout adjusts appropriately, all content accessible.                                          |
+| T11  | Responsiveness - Tablet      | View site on tablet resolution.                                          | Layout stacks or rearranges suitably, navigation works.                                        |
+| T12  | Responsiveness - Mobile      | View site on mobile resolution.                                          | Layout fits screen, navigation is accessible and functional.                                   |
+| T13  | Accessibility - Alt Text     | Inspect all images for alt text.                                         | All images have descriptive and appropriate alt attributes.                                    |
+
+
+
+
+### Example Test Cases
 ---
 
 # 6. Deployment and Local Development
