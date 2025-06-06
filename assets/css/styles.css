@@ -1117,15 +1117,14 @@ textarea:invalid + span.error {
   }
 
   .about-text p {
-  max-width: 1200px;
-  font-size: 1.1rem;
+    max-width: 1200px;
+    font-size: 1.1rem;
     }
 
   .section-heading {
     font-size: 2rem;
     letter-spacing: 2px;
   }
-
 
   .team-heading {
     font-size: 1.5rem;
@@ -1300,7 +1299,7 @@ textarea:invalid + span.error {
     font-size: 1.5rem;
   }
 
-   .cta-section {
+  .cta-section {
     gap: 40px;
     padding: 48px 0 60px 0;
   }
@@ -1309,6 +1308,7 @@ textarea:invalid + span.error {
     max-height: 500px;
     aspect-ratio: 1/1;
   }
+
   .cta-btn {
     font-size: 1.3rem;
     padding: 26px 0;
