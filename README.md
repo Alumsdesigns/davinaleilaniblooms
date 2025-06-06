@@ -82,11 +82,14 @@ Designed for intuitive user experience, the website features a clear navigation 
  <!-- ![Header](/assets/images/clickable-to-white.png) -->
 
 ### The responsive 'Footer' bottom naviagtion footer across all pages features:
-Everything the top navigation features with the DavinaLeilaniBlooms logo displaying bottom and central to assist with branding. - The email address, phone number and location are clickable (external) links.
+- Everything the top navigation features with the DavinaLeilaniBlooms logo displaying bottom and central to assist with branding. - The email address, phone number and location are clickable (external) links.
 
-The social links in the footer on mobile have been changed from column in the wireframes and some mockups to a row directing following user feedback after the first initial build.
+- *The social links in the footer on mobile have been changed from column in the wireframes and some mockups to a row directing following user feedback after the first initial build.
 
- ![Header](/assets/images/footer.png)
+- Every icon changes color on hover, the location icons opens google maps.
+
+ ![Header](/assets/images/)
+ ![Header](/assets/images/google-locations.png)
 
 ### The 'Home' page:
 - A hero video of events plays automatically but allows the user controls to pause as they explore the website. Then images gracefully adapt to all screen sizes, ensuring the focal point is centered and the image fits well on any device.
