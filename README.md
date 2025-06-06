@@ -8,7 +8,7 @@ Its primary audience includes individuals planning events who are interested in 
 
 ![Mock-up screenshot](/assets/images/website-live-mockups.png)
 
-![Mock-up screenshot](/assets/images/mockup.png)
+![Mock-up screenshot](/assets/images/mockup-homepage.png)
 
 [The website deployed can be found here]()
 
