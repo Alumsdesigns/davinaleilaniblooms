@@ -338,6 +338,22 @@ All remaining issues are **formatting-related warnings** caused by my VS Code fo
 - Deplyment was deplyed on github due to global github maintanence see [Githubs announcements](https://www.githubstatus.com/)
 - Will be deploying today on github  
 
+### How this site was deployed
+
+- In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu 
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
+- Any changes pushed to the master branch will take effect on the live project
+
+  The live link can be found here - [DAVINALEILANI BLOOMS](https://.....github.io/...index.html) 
+
+### How to clone the repository
+
+- Go to the git@github.com:Alumsdesigns/davinaleilaniblooms.git on GitHub 
+- Click the "Code" button to the right of the screen, click HTTPs and copy the link there
+- Open a GitBash terminal and navigate to the directory where you want your cloned folder to live
+- On the command line, type "git clone " then paste in the copied url and press the "Enter" key to begin the clone process
+
 ---
 
 # 7. Credits
