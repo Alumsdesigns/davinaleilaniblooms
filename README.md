@@ -366,8 +366,8 @@ All remaining issues are **formatting-related warnings** caused by my VS Code fo
 
 ### How to clone the repository
 
-- Go to the
-[DAVINALEILANI BLOOMS github repository](git@github.com:Alumsdesigns/davinaleilaniblooms.git) on GitHub 
+- Go to the - [DAVINALEILANI BLOOMS github repository](https://github.com/Alumsdesigns/davinaleilaniblooms) 
+on
 - Click the "Code" button to the right of the screen, click HTTPs and copy the link there
 - Open a GitBash terminal and navigate to the directory where you want your cloned folder to live
 - On the command line, type "git clone " then paste in the copied url and press the "Enter" key to begin the clone process
