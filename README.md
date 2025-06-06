@@ -84,12 +84,14 @@ Designed for intuitive user experience, the website features a clear navigation 
 ### The responsive 'Footer' bottom naviagtion footer across all pages features:
 Everything the top navigation features with the DavinaLeilaniBlooms logo displaying bottom and central to assist with branding. - The email address, phone number and location are clickable (external) links.
 
+The social links in the footer on mobile have been changed from column in the wireframes and some mockups to a row directing following user feedback after the first initial build.
+
  ![Header](/assets/images/footer.png)
 
 ### The 'Home' page:
 - A hero video of events plays automatically but allows the user controls to pause as they explore the website. Then images gracefully adapt to all screen sizes, ensuring the focal point is centered and the image fits well on any device.
 - A brief introduction text provides users with a brief yet impactful overview, promoting luxury faux floral designs. Users gain a clear and comprehensive insight into DavinaLeilaniBlooms' brand and services. 
-- A showcase of beautifully curated images of venues and event designs, presented in an elegant column structure for users to easily browse.
+- A showcase of beautifully curated images of venues and event designs, presented in an elegant column structure for users to easily browse. These images are interactive when hovered.
 - An image of the founder, accompanied by a brief personal introduction, fosters a deeper connection with users, allowing them to understand the vision and passion behind DavinaLeilaniBlooms. A call to action "Learn More" button invites further exploration.
 - CTA's Call To Actions Button that change color on hover overlay two images stacked one after the other, finishing off the page inviting the viewer to delve deeper
 
@@ -115,6 +117,7 @@ Everything the top navigation features with the DavinaLeilaniBlooms logo display
 ###  The ‘Portfolio’ page:
 - Images tell a thousand words. The images have a soft and elegant look that showcases a curated collection of exquisite luxury faux floral arrangements showcasing different events and aspects of events that we hosted in the past. 
 - These compelling visuals offer a glimpse into the artistry, inspiring clients and demonstrating the beauty that was created for weddings, private celebrations, and bespoke events.
+
 
 
 ###  The ‘About’ page:

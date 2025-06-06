@@ -931,6 +931,7 @@ textarea:invalid + span.error {
   outline: none;
 }
 
+
 .about-gallery {
   display: flex;
   flex-direction: column;
@@ -1165,6 +1166,23 @@ textarea:invalid + span.error {
     padding: 22px 0;
     max-width: 400px;
   }
+
+  .about-gallery {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px; 
+    padding: 40px 0 40px 0;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .about-gallery img {
+    width: 100%;
+    max-width: 400px;
+    min-width: 400px;
+    aspect-ratio: 1/1;
+  }
   
 }
 
@@ -1297,5 +1315,21 @@ textarea:invalid + span.error {
     max-width: 500px;
   }
 
+  .about-gallery {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px; 
+    padding: 40px 0 40px 0;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .about-gallery img {
+    width: 100%;
+    max-width: 400px;
+    min-width: 400px;
+    aspect-ratio: 1/1;
+  }
 
 }
