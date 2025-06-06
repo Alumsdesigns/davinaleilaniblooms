@@ -131,6 +131,8 @@ Designed for intuitive user experience, the website features a clear navigation 
 - Team Member Spotlights Responsive section, with a picture, name, title and introductary informaton.
 -  An about gallery section showcasing some more through the visual portfolio lens. Gives an sense of what you can dream and expect to receieve in real life also.
 
+!['Contact' page features](/assets/images/portfolio-cross-devices-page.png)
+
 
 
 ## Current Features
@@ -306,7 +308,6 @@ All remaining issues are **formatting-related warnings** caused by my VS Code fo
 | CSS File      | ![CSS Valid](assets/images/testing-images-and-insights/css-no-errors-w3s-validator.png)         |
 
 
-
 ### Manual User Testing Table
 | ID  | Test Label              | Steps                                                                 | Expected Outcome                                                        |
 |-----|-------------------------|-----------------------------------------------------------------------|-------------------------------------------------------------------------|
@@ -324,7 +325,13 @@ All remaining issues are **formatting-related warnings** caused by my VS Code fo
 | T12  | Responsiveness - Mobile      | View site on mobile resolution.                                          | Layout fits screen, navigation is accessible and functional.                                   |
 | T13  | Accessibility - Alt Text     | Inspect all images for alt text.                                         | All images have descriptive and appropriate alt attributes.                                    |
 
+### Browser Compatibility
 
+- Testing has been carried out on the following browsers :
+    - Chrome Version 90.0.4430.212 (Official Build) (64-bit)
+    - Firefox Version 88.0.1 (64-bit)
+    - Edge Version 90.0.818.62 (Official build) (64-bit)
+    - Safari on macOS Catalina (Safari  Version 14.0.3)
 
 ---
 
@@ -337,13 +344,17 @@ All remaining issues are **formatting-related warnings** caused by my VS Code fo
 # 7. Credits
 
 ## Code
-- Custom website code created by [Developer Name].
+- Custom website code created by Damaris Alum.
 
 ## Content
-- The content of the website was written by sophia buyoya.
+- The content of the website was written by Damaris Alum.
 
 ## Media
-- All icons were sourced from [Font Awesome](https://fontawesome.com/).
+- All icons on your site are sourced from two places only:
+
+Font Awesome — used for social media icons and other UI elements (e.g., <i class="fa fa-facebook-square"></i>)
+
+Google Material Icons — used for contact details and location (e.g., <span class="material-icons-outlined">location_on</span>)
 
 Photographs were sourced from:
     - [Pexels](https://www.unspash.com/)
@@ -377,4 +388,4 @@ Photographs were sourced from:
 *Note some images may have been renamed or deleted as the project evolves
 
 ## Acknowledgements
-- Thanks to Devina and the DVelour Couture team for creative direction and insight
+- Thanks to code institute and w3schools for there support
