@@ -149,7 +149,7 @@
           </div>
         </section>
 
-                <section class="contact-section-2">
+        <section class="contact-section-2">
           <div class="contact-opening-time">
             <h2 class="contact-heading">SHARE YOUR VISION WITH US</h2>
             <p>Opening Times: 9am-5pm</p>
@@ -230,6 +230,93 @@
             </div>
           </div>
         </section>
+
+        <section class="contact-section">
+          <hr class="section-divider" aria-hidden="true" />
+          <h2 class="contact-heading">Contact Us About Your Upcoming Event</h2>
+
+          <form action="#submitted" method="get" novalidate>
+            <fieldset>
+              <legend id="event-type-legend">
+                Event Type<span aria-hidden="true">*</span>
+              </legend>
+              <div
+                class="radio-group"
+                role="radiogroup"
+                aria-labelledby="event-type-legend"
+              >
+                <label
+                  ><input type="radio" name="eventType" value="Weddings" />
+                  Weddings</label
+                >
+                <label
+                  ><input type="radio" name="eventType" value="Private Party" />
+                  Private Party</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="eventType"
+                    value="Corporate Experience"
+                  />
+                  Corporate Experience</label
+                >
+              </div>
+            </fieldset>
+            <div class="form-group">
+              <label for="eventDate"
+                >Your Event Date <span aria-hidden="true">*</span></label
+              >
+              <input
+                type="date"
+                id="eventDate"
+                name="eventDate"
+                aria-required="true"
+                required
+                min="2025-05-26"
+                aria-describedby="eventDateHelp"
+              />
+              <span class="error" id="eventDateHelp" aria-live="polite"
+                >Date must be today or later.</span
+              >
+            </div>
+            <div class="form-group">
+              <label for="eventDetails"
+                >Event Details <span aria-hidden="true">*</span></label
+              >
+              <textarea
+                id="eventDetails"
+                name="eventDetails"
+                rows="4"
+                required
+                minlength="10"
+                maxlength="300"
+                aria-describedby="eventDetailsHelp"
+              ></textarea>
+              <span class="error" id="eventDetailsHelp" aria-live="polite"
+                >Details must be between 10–300 characters.</span
+              >
+            </div>
+            <div class="submit-contact-button-wrapper ">
+            <button type="submit" class="contact-submit-button" aria-label="submit contact form">Submit</button>
+          </div>
+          </form>
+        </section>
+
+        <div
+          id="submitted"
+          class="modal"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="modal-title"
+        >
+          <div class="modal-content">
+            <h2 id="modal-title">Submission Successful!</h2>
+            <p>Thank you for contacting us. We'll get back to you soon.</p>
+
+            <a href="#">Close</a>
+          </div>
+        </div>
 
       </main>
 
