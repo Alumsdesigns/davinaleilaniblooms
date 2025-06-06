@@ -777,6 +777,40 @@ textarea:invalid + span.error {
   padding: 0 1rem;
 }
 
+.founder-profile {
+  text-align: center;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.founder-image {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid #ccc;
+}
+
+.founder-text h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.founder-text h3 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.founder-text p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
 
 @media (min-width: 768px) {
 
@@ -935,8 +969,15 @@ textarea:invalid + span.error {
     font-size: 1.2rem;
   }
 
-    .about-text h1 {
+  .about-text h1,
+  .founder-text h2 {
     font-size: 1.5rem;
+  }
+
+  .founder-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
   }
   
 }
