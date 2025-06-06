@@ -181,13 +181,16 @@ Designed for intuitive user experience, the website features a clear navigation 
 
 ---
 # 3. Design
-*(Details about design structure, wireframes, colour scheme, typography, imagery, and icons can be added here once defined.)*
+## Structure
+The website comprises four pages, all of which feature the header at the top of the page and the footer at the bottom of the page.
 
 ## Wireframes
 - ['Home' Page Wireframe](/assets/images/wireframes/home-page-wireframe.png)
 - ['About' Page Wireframe](/assets/images/wireframes/About-page-wireframe.png)
 - ['Portfolio' Page Wireframe](/assets/images/wireframes/Portfolio-page-wireframe.png)
 - ['Contact' Page wireframe](/assets/images/wireframes/contact-wireframe.png)
+
+In addition the contact page has a submission succesful pop up This is a placeholder for now.
 
 ## Colour Scheme
 ![colour Palette](/assets/images/DAVINALEILANIBLOOMS%20Colour%20Palette.png)
@@ -197,8 +200,7 @@ The colour palette was created using [Coolors](https://coolors.co/).
 
 ## Typography
 
-
-[Google Fonts](https://fonts.google.com/) was used to add the following fonts:
+- [Google Fonts](https://fonts.google.com/) was used to add the following fonts:
 - 'Playfair Display' is used for headings, this provides a visual contrast to the main body.
 - 'Inter' is used for most body text and navigation, offering a beautiful, clean, and highly readable sans-serif font for accessibility and clarity.
 - Fallbacks: If custom fonts cannot load, the site falls back to system fonts such as Arial, sans-serif, or serif for consistent rendering.
@@ -254,7 +256,7 @@ CSS AND ccs - to add style to the website.
 
 [PageSpeed Insights](https://pagespeed.web.dev/) - Used to generate lighthouse report for 404 error page as lighthouse was unable to load the page when used in Chrome Developer Tools.
 
-[Prettier.io](https://prettier.io/) - Used to format code.
+[cANVA](https://www.canva.com/) - Used to Canva for design
 
 
 
@@ -265,8 +267,8 @@ CSS AND ccs - to add style to the website.
 This project underwent thorough testing to ensure functionality, responsiveness, and adherence to web standards across different environments.
 
 Validators Used
-W3C HTML Validator: Used to check the structural integrity and validity of the HTML markup.
-W3C CSS Validator: Employed to validate CSS syntax and ensure compliance with web standards.
+W3C HTML Validator: [W3C HTML Validator Testing](#w3c-html-validator-testing) Used to check the structural integrity and validity of the HTML markup.
+W3C CSS Validator:[W3C CSS Validator Testing](#w3c-css-validator-testing) Employed to validate CSS syntax and ensure compliance with web standards.
 Development and Live Server Environments
 Live Server VS Code Extension: Utilized during development for real-time browser reloading and efficient local testing.
 python3 -m http.server: A simple Python HTTP server used for local hosting and testing, especially when checking resource paths and form submissions.
@@ -276,6 +278,16 @@ The website's rendering and functionality were tested across the following major
 Google Chrome (Developer Tools): Extensive testing and debugging were performed using Chrome's built-in developer tools.
 Mozilla Firefox (Developer Tools): Cross-browser compatibility was verified, with Firefox's developer tools used for specific debugging.
 Apple Safari (Developer Tools): Tested on macOS to ensure proper rendering and functionality on WebKit-based browsers.
+
+### reults from W3C CSS Validator as per image
+
+No css errors see image [W3C CSS Validator Testing](#css-no-errors-w3s-validator.png)
+
+Contact and home report trailing white space however my formatter keets adding them back in, I will continue to work on this.
+
+
+### reults from W3C CSS Validator as per image
+css-no-errors-w3s-validator
 
 
 ### Manual User Testing Table
@@ -297,8 +309,6 @@ Apple Safari (Developer Tools): Tested on macOS to ensure proper rendering and f
 
 
 
-
-### Example Test Cases
 ---
 
 # 6. Deployment and Local Development
@@ -318,7 +328,7 @@ Apple Safari (Developer Tools): Tested on macOS to ensure proper rendering and f
 - All icons were sourced from [Font Awesome](https://fontawesome.com/).
 
 Photographs were sourced from:
-- [Pexels](https://www.unspash.com/)
+    - [Pexels](https://www.unspash.com/)
     - [gulnar mardanova](https://images.unsplash.com/photo-1734033923463-d32aa24ecca3)
     - [kasongo Bulobo](https://unsplash.com/photos/a-man-in-a-suit-and-tie-standing-in-front-of-a-building-4hJxAgMNiak)
     - [napat-saeng](https://unsplash.com/photos/woman-wearing-black-dress-KCTnilEFKjQ)
@@ -343,11 +353,10 @@ Photographs were sourced from:
     - [tahiti-spears](https://unsplash.com/s/photos)
     - [alvin-mahmudov](https://unsplash.com/s/photos)
     - [94b773bb-92d5-4b78--](https://unsplash.com/s/photos)
-    
-
-
-- [Unsplash](https://pixabay.com/)
+    - [Unsplash](https://pixabay.com/)
     - [unknown](https://pixabay.com/videos/wedding-dress-shoes-decoration-1309/)
+
+*Note some images may have been renamed or deleted as the project evolves
 
 ## Acknowledgements
 - Thanks to Devina and the DVelour Couture team for creative direction and insight
