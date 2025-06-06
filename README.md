@@ -129,8 +129,7 @@ Designed for intuitive user experience, the website features a clear navigation 
 - Hero Section: Brand & Founder Introduction. Visual Hook with Hero Image and h1 with Core Message
 - Founder Profile: Meet Davina Leilani, personal story and brand values.
 - Team Member Spotlights Responsive section, with a picture, name, title and introductary informaton.
--  An about Gallery showcasing some more through the visual portfolio lens 
-
+-  An about gallery section showcasing some more through the visual portfolio lens. Gives an sense of what you can dream and expect to receieve in real life also.
 
 
 
