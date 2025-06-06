@@ -6,6 +6,8 @@ The website is a responsive, mobile-friendly platform accessible on various scre
 
 Its primary audience includes individuals planning events who are interested in learning more about the studio’s services, viewing its portfolio, and making contact or inquiries.
 
+![Mock-up screenshot](/assets/images/website-live-mockups.png)
+
 ![Mock-up screenshot](/assets/images/mockup.png)
 
 [The website deployed can be found here]()
