@@ -367,9 +367,17 @@ All remaining issues are **formatting-related warnings** caused by my VS Code fo
 ## Media
 - All icons on your site are sourced from two places only:
 
-Font Awesome — used for social media icons and other UI elements (e.g., <i class="fa fa-facebook-square"></i>)
+Font Awesome — used for social media icons and other UI elements 
+Example:  
+  ```html
+  <i class="fa fa-facebook-square"></i>
+  ```
 
-Google Material Icons — used for contact details and location (e.g., <span class="material-icons-outlined">location_on</span>)
+Google Material Icons — used for contact details and location 
+Example:  
+  ```html
+  <span class="material-icons-outlined">location_on</span>
+```
 
 Photographs were sourced from:
     - [Pexels](https://www.unspash.com/)
