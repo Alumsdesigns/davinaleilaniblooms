@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+
+:root {
+  --sand: #c8b393;
+  --darksand: #c1a885;
+  --white: #fff;
+  --black: #000;
+  --error: #b00020;
+  --success: #388e3c;
+  --lighter-sand-bg: #e1c8a4; 
+  --highlight-color: #bfa980; 
+  --section-bg-color: #d1b892; 
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  background: var(--sand);
+  height: 100%;
+  overflow-x: hidden;
+}
+
+a:focus,
+button:focus,
+input:focus {
+  outline: 2px solid var(--highlight-color);
+  outline-offset: 2px;
+}
+
+.page-wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+main {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+
+.custom-margin {
+  font-family: "Playfair Display", serif;
+  font-size: 1.2rem;
+  color: var(--black);
+  margin: 20px;
+}
+
+.db-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+  padding: 0 40px;
+  position: relative;
+  background: var(--white);
+}
+
+.db-menu-toggle {
+  display: none;
+}
+
+.db-menu-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  z-index: 1201;
+}
+
+.db-hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  z-index: 1300;
+}
+
+.db-hamburger span {
+  width: 30px;
+  height: 3px;
+  margin: 4px 0;
+  background-color: var(--black);
+  border-radius: 2px;
+  transition: all 0.4s ease;
+  transform-origin: center;
+}
+
+.db-menu-toggle:checked ~ .db-header-inner .db-hamburger span:nth-child(1) {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.db-menu-toggle:checked ~ .db-header-inner .db-hamburger span:nth-child(2) {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.db-menu-toggle:checked ~ .db-header-inner .db-hamburger span:nth-child(3) {
+  transform: rotate(-45deg);
+  transform-origin: -10% -10%;
+}
+
+.db-menu-label {
+  display: none;
+}
+
+.db-brand-name {
+  font-family: "Playfair Display", serif;
+  text-align: left;
+  font-size: 0.875rem;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 5px;
+  color: var(--black);
+  position: absolute;
+  left: 60%;
+  transform: translateX(-50%);
+}
+
+.db-menu-contact-span-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: center;
+  gap: 1rem;
+}
+
+.db-menu-contact-span-container span {
+  padding: 0 0px 0 5px;
+  font-size: 0.875rem;
+  color: var(--black);
+}
+
+.db-menu-contact-span-container a {
+  text-decoration: none;
+}
+
+.db-overlay-nav-ul {
+  padding: 10px 0;
+}
+
+.location-icon {
+  display: flex;
+  align-items: flex-end;
+}
+
+.db-desktop-contact {
+  display: none;
+}
+
+.db-overlay-nav {
+  display: none;
+}
+
+.db-overlay-nav {
+  padding: 30px 0;
+  display: block;
+  position: absolute;
+  background-color: var(--white);
+  left: -9999px;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+  top: 120px;
+  left: 0px;
+  background-color: var(--sand);
+}
+
+.db-menu-toggle:checked ~ .db-header-inner .db-overlay-nav {
+  opacity: 1;
+  pointer-events: auto;
+  left: 0;
+  top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: center;
+  min-height: 100vh;
+  z-index: 1300;
+}
+
+.db-overlay-nav li {
+  list-style: none;
+  padding: 10px 0;
+}
+
+.db-overlay-nav li a {
+  text-decoration: none;
+  color: var(--black);
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  transition: color 0.2s;
+}
+
+.db-overlay-nav li a:hover {
+  list-style: none;
+  color: var(--white);
+}
+
+.db-overlay-nav .db-menu-social {
+  color: var(--black);
+}
+
+.material-icons-outlined {
+  font-size: 30px;
+  color: var(--black);
+}
+
+.material-icons-outlined:hover {
+  color: var(--white);
+}
+
+.db-menu-contact {
+  padding: 20px 0;
+}
