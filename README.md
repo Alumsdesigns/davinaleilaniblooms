@@ -6,9 +6,9 @@ The website is a responsive, mobile-friendly platform accessible on various scre
 
 Its primary audience includes individuals planning events who are interested in learning more about the studio’s services, viewing its portfolio, and making contact or inquiries.
 
-![Mock-up screenshot](/assets/images/website-live-mockups.png)
+![Mock-ups Across Devices](/assets/images/website-live-mockups.png)
 
-![Mock-up screenshot](/assets/images/mockup-homepage.png)
+![Mock-up High Level Home Page Across Devices](/assets/images/mockup-homepage.png)
 
 [The website deployed can be found here]()
 
@@ -64,26 +64,33 @@ As a Business owner:
 Designed for intuitive user experience, the website features a clear navigation hamburger menu that allows seamless access to all four essential pages: Home, Portfolio, Contact Us, and About.
 
 - All pages feature:
-- Responsive Navigation:
-- The header features fully responsive navigation. On mobile, it displays in a single column, with a hamburger icon on the far left and the DavinaLeilaniBlooms logo (linking to the homepage) centrally located.
+- Responsive Top and Footer Navigations with various means to get in contact and interact with the business:
+### The responsive top naviagtion header across all pages features:
+- Fully responsive navigation and interaction. On mobile, it displays in a single column, with a hamburger icon on the far left and the DavinaLeilaniBlooms logo (linking to the homepage) centrally located. 
  For tablet and desktop screens, the layout expands to a multi-column/grid view: the site logo and main menu links (Home, About, Portfolio, Contact Us) appear on the left, with the "Contact Us" link specifically aligned to the far right, and all navigation content centered.
  
  ![Header](/assets/images/responsive%20home%20header.png)
 
- - Overlay navigation with links to Home, About, Portfolio, and Contact pops out once the hamburger is clicked nd the cursor turns to a hand.. See images:
+ - When the Hamburger icon is clicked it transforms smoothly into an "X" and an overlay navigation with links to Home, About, Portfolio, and Contact pops out, the cursor also turns to a hand when hovering clickable links here. All internal navigation links work as expected and make it a breeze to browse the site. The overlay has interactive internal links and social links along with relevent contact infomrmation. Want to call just click the icon and sit back. See images:
 
   ![Header](/assets/images/hamburger-overlay-top-nav.png)
 
-- Social media icons and contact info accessible via navigation overlay. All clickable icons change color when hovered to white or beige and the cursor turns to a hand. See images:
+- Social media icons and contact info accessible via navigation overlay. All clickable icons change color when hovered to white or beige and the cursor turns to a hand and leave an border to indicate active before opening external links to the there respective social platforms. See images:
 
  ![Header](/assets/images/clickable-to-beige.png)
- ![Header](/assets/images/clickable-to-white.png)
+ <!-- ![Header](/assets/images/clickable-to-white.png) -->
 
-The 'Home' page:
+### The responsive bottom naviagtion footer across all pages features:
+Everything the top navigation features with the DavinaLeilaniBlooms logo displaying bottom and central to assist with branding.
+
+ ![Header](/assets/images/footer.png)
+
+### The 'Home' page:
 - A hero video of events plays automatically but allows the user controls to pause as they explore the website. Then images gracefully adapt to all screen sizes, ensuring the focal point is centered and the image fits well on any device.
 - A brief introduction text provides users with a brief yet impactful overview, promoting luxury faux floral designs. Users gain a clear and comprehensive insight into DavinaLeilaniBlooms' brand and services. 
 - A showcase of beautifully curated images of venues and event designs, presented in an elegant column structure for users to easily browse.
-- An image of the founder, accompanied by a brief personal introduction, fosters a deeper connection with users, allowing them to understand the vision and passion behind DavinaLeilaniBlooms. A "Learn More" button invites further exploration.
+- An image of the founder, accompanied by a brief personal introduction, fosters a deeper connection with users, allowing them to understand the vision and passion behind DavinaLeilaniBlooms. A call to action "Learn More" button invites further exploration.
+- CTA's Call To Actions Button that change color on hover overlay two images stacked one after the other, finishing off the page inviting the viewer to delve deeper
 
 !['Home' page features](/assets/images/home-page.png)
 
@@ -93,11 +100,14 @@ The 'Contact' page:
 - The contact form contains intuitive event type selection allows clients to specify the nature of their celebration – whether it's a wedding, corporate event, or private party – ensuring we understand their unique requirements from the outset.
 - The form includes a mandatory input field for the event date, ensuring all submissions provide this crucial detail.
 - Users can submit their inquiry by activating the 'Submit' button, conveniently located beneath the date of event  input field.
-- A thank you message pops up once query has been submitted.
+- A feedback modal pops up once the end user submits to reassure them there query has been submitted successfully.
 - Seamlessly integrated responsive icons allow users to connect with DavinaLeilaniBlooms across all active social media platforms, including Instagram, Facebook, X, and YouTube.
 - The email address and phone number are clickable (external) links.
 
 !['Contact' page features](/assets/images/contact.png)
+!['Contact' page features](/assets/images/interactive-modal-feedback.png)
+
+
 
 The ‘Portfolio’ page:
 - The images have a soft and elegant look that showcases a curated collection of exquisite luxury faux floral arrangements. 
