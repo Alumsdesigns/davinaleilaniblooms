@@ -226,6 +226,7 @@ h3 {
   transition: color 0.2s;
 }
 
+
 .db-overlay-nav li a:hover {
   list-style: none;
   color: var(--white);
@@ -246,4 +247,141 @@ h3 {
 
 .db-menu-contact {
   padding: 20px 0;
+}
+
+.social-icons a {
+  color: var(--black);
+  font-size: 30px;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+
+.social-icons a:hover {
+  color: var(--white);
+}
+
+@media (min-width: 768px) {
+
+ h1 {
+    font-family: "Playfair Display", serif;
+    margin: 0;
+    font-size: 1.8rem;
+  }
+
+  h2, h3 {
+    font-family: "Playfair Display", serif;
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .db-brand-name {
+    font-family: "Playfair Display", serif;
+    text-align: right;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: var(--black);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .db-menu-label {
+    display: block;
+    font-family: "Playfair Display", serif;
+    font-size: 1rem;
+    color: var(--black);
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+
+  .db-desktop-contact {
+    display: block;
+  }
+
+  .db-desktop-contact a {
+    display: block;
+    font-family: "Playfair Display", serif;
+    font-size: 1rem;
+    color: var(--black);
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .db-desktop-contact a:hover {
+    color: var(--sand);
+    font-weight: 700;
+  }
+
+   .db-overlay-nav li a {
+    list-style: none;
+    font-size: 1.2rem;
+  }
+
+  .db-menu-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    padding-bottom: 20px;
+  }
+
+  .db-menu-contact-span-container span {
+    padding: 0 0px 0 10px;
+    font-size: 1.2rem;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 10px 0;
+    padding-bottom: 15px;
+  }
+
+  .social-icons a {
+    color: var(--black);
+    font-size: 37px;
+    text-decoration: none;
+    padding: 20px 20px;
+  }
+
+  .social-icons a:hover {
+    color: var(--white);
+  }
+
+  .material-icons-outlined {
+    font-size: 30px;
+    color: var(--black);
+  }
+  
+}
+
+@media (min-width: 1024px) {
+
+  .db-brand-name {
+    font-family: "Playfair Display", serif;
+    text-align: right;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: var(--black);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .db-overlay-nav li a {
+    list-style: none;
+    font-size: 1.5rem;
+  }
+
+  .db-menu-contact-span-container span {
+    padding: 0 0px 0 10px;
+    font-size: 1.5rem;
+  }
+
 }
