@@ -131,7 +131,7 @@ Designed for intuitive user experience, the website features a clear navigation 
 - Team Member Spotlights Responsive section, with a picture, name, title and introductary informaton.
 -  An about gallery section showcasing some more through the visual portfolio lens. Gives an sense of what you can dream and expect to receieve in real life also.
 
-!['Contact' page features](/assets/images/portfolio-cross-devices-page.png)
+!['Contact' page features](/assets/images/about-page-devices-mockups.png)
 
 
 
