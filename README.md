@@ -193,9 +193,12 @@ The color palette for DavinaLeilaniBlooms was thoughtfully selected to harmonize
 The colour palette was created using [Coolors](https://coolors.co/).
 
 ## Typography
+
+
 [Google Fonts](https://fonts.google.com/) was used to add the following fonts:
 - 'Playfair Display' is used for headings, this provides a visual contrast to the main body.
-- 'Inter' is mainly used for the body text, beutiful and clear to read for accessability.
+- 'Inter' is used for most body text and navigation, offering a beautiful, clean, and highly readable sans-serif font for accessibility and clarity.
+- Fallbacks: If custom fonts cannot load, the site falls back to system fonts such as Arial, sans-serif, or serif for consistent rendering.
 
 [Fontjoy](https://fontjoy.com/) proveded the best contrast options 
 
@@ -209,6 +212,11 @@ Icons were incorporated throughout the website as visual cues to enhance usabili
 
 All icons were sourced from [Font Awesome](https://fontawesome.com/)
 
+All icons on your site are sourced from two places only:
+
+Font Awesome — used for social media icons and other UI elements (e.g., <i class="fa fa-facebook-square"></i>)
+
+Google Material Icons — used for contact details and location (e.g., <span class="material-icons-outlined">location_on</span>)
 
 
 
