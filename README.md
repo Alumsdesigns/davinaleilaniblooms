@@ -88,7 +88,7 @@ Designed for intuitive user experience, the website features a clear navigation 
 
 - Every icon changes color on hover, the location icons opens google maps.
 
- ![Header](/assets/images/)
+ ![Header](/assets/images/footer.png)
  ![Header](/assets/images/google-locations.png)
 
 ### The 'Home' page:
