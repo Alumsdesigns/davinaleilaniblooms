@@ -266,18 +266,20 @@ CSS AND ccs - to add style to the website.
 
 This project underwent thorough testing to ensure functionality, responsiveness, and adherence to web standards across different environments.
 
-Validators Used
-W3C HTML Validator: [W3C HTML Validator Testing](#w3c-html-validator-testing) Used to check the structural integrity and validity of the HTML markup.
-W3C CSS Validator:[W3C CSS Validator Testing](#w3c-css-validator-testing) Employed to validate CSS syntax and ensure compliance with web standards.
-Development and Live Server Environments
+Validators Used:
+- W3C HTML Validator: [W3C HTML Validator Testing](#w3c-html-validator-testing) Used to check the structural integrity and validity of the HTML markup.
+- W3C CSS Validator:[W3C CSS Validator Testing](#w3c-css-validator-testing) Employed to validate CSS syntax and ensure compliance with web standards.
+- Development and Live Server Environments:
 Live Server VS Code Extension: Utilized during development for real-time browser reloading and efficient local testing.
 python3 -m http.server: A simple Python HTTP server used for local hosting and testing, especially when checking resource paths and form submissions.
-Browser Compatibility Testing
+- Browser Compatibility Testing
 The website's rendering and functionality were tested across the following major browsers to ensure a consistent user experience:
 
 Google Chrome (Developer Tools): Extensive testing and debugging were performed using Chrome's built-in developer tools.
 Mozilla Firefox (Developer Tools): Cross-browser compatibility was verified, with Firefox's developer tools used for specific debugging.
 Apple Safari (Developer Tools): Tested on macOS to ensure proper rendering and functionality on WebKit-based browsers.
+
+This was the most effective way to test yet experienced issues with cache and reloading
 
 ### reults from W3C CSS Validator as per image
 
@@ -286,8 +288,23 @@ No css errors see image [W3C CSS Validator Testing](#css-no-errors-w3s-validator
 Contact and home report trailing white space however my formatter keets adding them back in, I will continue to work on this.
 
 
-### reults from W3C CSS Validator as per image
-css-no-errors-w3s-validator
+### reults from W3C HTML Validator as per image
+## ✅ HTML & CSS Validation
+
+All errors reported by the [W3Schools HTML Validator](https://www.w3schools.com/html/html_validator.asp) have been **resolved**.
+
+All remaining issues are **formatting-related warnings** caused by my VS Code formatter. These involve extra spacing/indentation that cannot be overridden at this time. They do **not affect the layout or functionality**, and CSS passes with **zero errors**.
+
+### 📸 Some Validation Errors Screenshots Captures - errors fixed
+
+| Page/File     | Validator Screenshot                                                                 |
+|---------------|--------------------------------------------------------------------------------------|
+| Home Page     | ![Home HTML Fixed](assets/images/testing-images-and-insights/home-page-errors-fixed-html.png) |
+| About Page    | ![About Page Errors](assets/images/testing-images-and-insights/about-page-two-errors.png)       |
+| Contact Page  | ![Contact HTML Errors](assets/images/testing-images-and-insights/contact-html-errs2.png)        |
+| Portfolio Page| ![Portfolio Formatting Warning](assets/images/testing-images-and-insights/portfolio-spacing-formating-w3schools-validator-complaint.png) |
+| CSS File      | ![CSS Valid](assets/images/testing-images-and-insights/css-no-errors-w3s-validator.png)         |
+
 
 
 ### Manual User Testing Table
@@ -312,7 +329,8 @@ css-no-errors-w3s-validator
 ---
 
 # 6. Deployment and Local Development
-*(Information on GitHub Pages, Netlify, or another hosting platform and steps for cloning the repository can go here.)*
+- Deplyment was deplyed on github due to global github maintanence see [Githubs announcements](https://www.githubstatus.com/)
+- Will be deploying today on github  
 
 ---
 
