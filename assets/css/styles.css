@@ -343,6 +343,75 @@ h3 {
   border: 0;
 }
 
+.bio {
+  padding: 30px 10px;
+  background-color: var(--section-bg-color);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 30px 0px 20PX 0;
+}
+
+.section-heading {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 2px;
+}
+
+.intro-text,
+.founder-bio p {
+  font-family: "Playfair Display", serif;
+  line-height: 1.6;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 1200px;
+}
+
+.meet-dl {
+  font-weight: 700;
+}
+
+.founder-image {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.founder-image img {
+  width: 100%;
+  border-radius: 0.5rem;
+  display: block;
+  height: auto;
+}
+
+.founder-bio h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+}
+
+.learn-button {
+  text-align: center;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--black);
+  background-color: var(--section-bg-color);
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  margin: 1rem auto 0;
+  width: fit-content;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 
 @media (min-width: 768px) {
 
