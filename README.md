@@ -40,7 +40,7 @@ As a potential client planning an event:
 - To find clear contact information (email, phone, address), to easily reach out with questions.
 - To easily find links to DavinaLeilaniBlooms' social media channels, to follow their latest work, behind-the-scenes content, and testimonials.
 - To find the address, to know their location or to plan a visit if necessary.
-- o quickly access contact details like email and phone number in the footer, so I don't have to search the entire site for them.
+- To quickly access contact details like email and phone number in the footer, so I don't have to search the entire site for them.
 - To know that the site is trustworthy
 
 
@@ -64,13 +64,23 @@ As a Business owner:
 Designed for intuitive user experience, the website features a clear navigation hamburger menu that allows seamless access to all four essential pages: Home, Portfolio, Contact Us, and About.
 
 - All pages feature:
+- Responsive Navigation:
 - The header features fully responsive navigation. On mobile, it displays in a single column, with a hamburger icon on the far left and the DavinaLeilaniBlooms logo (linking to the homepage) centrally located.
  For tablet and desktop screens, the layout expands to a multi-column/grid view: the site logo and main menu links (Home, About, Portfolio, Contact Us) appear on the left, with the "Contact Us" link specifically aligned to the far right, and all navigation content centered.
  
  ![Header](/assets/images/responsive%20home%20header.png)
 
+ - Overlay navigation with links to Home, About, Portfolio, and Contact pops out once the hamburger is clicked nd the cursor turns to a hand.. See images:
+
+  ![Header](/assets/images/hamburger-overlay-top-nav.png)
+
+- Social media icons and contact info accessible via navigation overlay. All clickable icons change color when hovered to white or beige and the cursor turns to a hand. See images:
+
+ ![Header](/assets/images/clickable-to-beige.png)
+ ![Header](/assets/images/clickable-to-white.png)
+
 The 'Home' page:
-- A hero video of events plays automatically but allows the user to pause as they explore the website. Then images gracefully adapt to all screen sizes, ensuring the focal point is centered and the image fits well on any device.
+- A hero video of events plays automatically but allows the user controls to pause as they explore the website. Then images gracefully adapt to all screen sizes, ensuring the focal point is centered and the image fits well on any device.
 - A brief introduction text provides users with a brief yet impactful overview, promoting luxury faux floral designs. Users gain a clear and comprehensive insight into DavinaLeilaniBlooms' brand and services. 
 - A showcase of beautifully curated images of venues and event designs, presented in an elegant column structure for users to easily browse.
 - An image of the founder, accompanied by a brief personal introduction, fosters a deeper connection with users, allowing them to understand the vision and passion behind DavinaLeilaniBlooms. A "Learn More" button invites further exploration.
