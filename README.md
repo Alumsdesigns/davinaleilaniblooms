@@ -182,6 +182,15 @@ Designed for intuitive user experience, the website features a clear navigation 
   - Includes a follow-up page for detailed event information.
 
 ---
+
+### Features which could be implemented in the future
+
+- Proper Form Validation with error feedback
+    - On a future iteration I hope to add proper form validation and error feedback for end users.
+
+---
+
+
 # 3. Design
 ## Structure
 The website comprises four pages, all of which feature the header at the top of the page and the footer at the bottom of the page.
@@ -221,10 +230,18 @@ All icons were sourced from [Font Awesome](https://fontawesome.com/)
 
 All icons on your site are sourced from two places only:
 
-Font Awesome — used for social media icons and other UI elements (e.g., <i class="fa fa-facebook-square"></i>)
+Font Awesome — used for social media icons and other UI elements 
+Google Material Icons — used for contact details and location 
+Example:  
+  ```html
+  <i class="fa fa-facebook-square"></i>
+```
 
-Google Material Icons — used for contact details and location (e.g., <span class="material-icons-outlined">location_on</span>)
-
+Google Material Icons — used for contact details and location 
+Example:  
+  ```html
+  <span class="material-icons-outlined">location_on</span>
+```
 
 
 ---
@@ -248,7 +265,7 @@ CSS AND ccs - to add style to the website.
 
 [Coolors](https://coolors.co/) - used to create the colour palette.
 
-[Pexels](https://www.pexels.com/) - used to source images.
+[Pixabay](https://pixabay.com/videos/wedding-dress-shoes-decoration-1309/) - used to source images.
 
 [Unsplash](https://unsplash.com/) - used to source images.
 
@@ -317,7 +334,7 @@ All remaining issues are **formatting-related warnings** caused by my VS Code fo
 | T05 | UX - Hero Video         | On Home, check hero video loads and overlay text is readable.?     | Video is visible, plays, and text is legible over it.                  |
 | T06  | UX - Scroll                  | Scroll up/down across all pages.                                         | Page scrolls smoothly without layout breakage.                                                 |
 | T07  | UX - Animations              | Interact with animated elements (hover effects, transitions, etc).       | Animations are smooth and enhance usability.                                                   |
-| T08  | Forms - Validation           | Submit contact form with missing/invalid fields.                         | Appropriate error messages appear, form not submitted.                                         |
+| T08  | Forms - Validation           | Submit contact form with missing/invalid fields.                         | Validation will be added and tested for future features, form submits to check modal works for now.                                         |
 | T09  | Forms - Success Submission   | Fill and submit contact form with valid inputs.                          | Confirmation message appears, form clears or disables.                                         |
 | T10  | Responsiveness - Desktop     | View site on desktop resolution.                                         | Layout adjusts appropriately, all content accessible.                                          |
 | T11  | Responsiveness - Tablet      | View site on tablet resolution.                                          | Layout stacks or rearranges suitably, navigation works.                                        |
@@ -407,7 +424,7 @@ Photographs were sourced from:
     - [alvin-mahmudov](https://unsplash.com/s/photos)
     - [94b773bb-92d5-4b78--](https://unsplash.com/s/photos)
     - [Unsplash](https://pixabay.com/)
-    - [unknown](https://pixabay.com/videos/wedding-dress-shoes-decoration-1309/)
+    - [Pixabay](https://pixabay.com/videos/wedding-dress-shoes-decoration-1309/)
 
 *Note some images may have been renamed or deleted as the project evolves
 
