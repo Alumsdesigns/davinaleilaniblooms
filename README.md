@@ -269,8 +269,10 @@ CSS AND ccs - to add style to the website.
 This project underwent thorough testing to ensure functionality, responsiveness, and adherence to web standards across different environments.
 
 Validators Used:
-- W3C HTML Validator: [W3C HTML Validator Testing](#w3c-html-validator-testing) Used to check the structural integrity and validity of the HTML markup.
-- W3C CSS Validator:[W3C CSS Validator Testing](#w3c-css-validator-testing) Employed to validate CSS syntax and ensure compliance with web standards.
+- W3C HTML Validator:  
+[W3C HTML Validator Testing](#w3c-html-validator-testing) Used to check the structural integrity and validity of the HTML markup.
+- W3C CSS Validator: 
+[W3C CSS Validator Testing](#w3c-css-validator-testing) Employed to validate CSS syntax and ensure compliance with web standards.
 - Development and Live Server Environments:
 Live Server VS Code Extension: Utilized during development for real-time browser reloading and efficient local testing.
 python3 -m http.server: A simple Python HTTP server used for local hosting and testing, especially when checking resource paths and form submissions.
@@ -283,7 +285,7 @@ Apple Safari (Developer Tools): Tested on macOS to ensure proper rendering and f
 
 This was the most effective way to test yet experienced issues with cache and reloading
 
-### reults from W3C CSS Validator as per image
+### Reults from W3C CSS Validator as per image
 
 No css errors see image [W3C CSS Validator Testing](#css-no-errors-w3s-validator.png)
 
