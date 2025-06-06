@@ -748,6 +748,35 @@ textarea:invalid + span.error {
   justify-content: center;
 }
 
+.about-hero {
+  text-align: center;
+  max-width: 100vw;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.about-text h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.about-text p {
+  max-width: 700px;
+  margin: 0 auto 1rem auto;
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+
 
 @media (min-width: 768px) {
 
@@ -904,6 +933,10 @@ textarea:invalid + span.error {
   .db-overlay-nav li a {
     list-style: none;
     font-size: 1.2rem;
+  }
+
+    .about-text h1 {
+    font-size: 1.5rem;
   }
   
 }
