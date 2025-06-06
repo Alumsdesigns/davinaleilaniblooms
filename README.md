@@ -121,6 +121,8 @@ Designed for intuitive user experience, the website features a clear navigation 
 - Images tell a thousand words. The images have a soft and elegant look that showcases a curated collection of exquisite luxury faux floral arrangements showcasing different events and aspects of events that we hosted in the past. 
 - These compelling visuals offer a glimpse into the artistry, inspiring clients and demonstrating the beauty that was created for weddings, private celebrations, and bespoke events.
 
+!['Contact' page features](/assets/images/portfolio-cross-devices-page.png)
+
 
 
 ###  The ‘About’ page:
@@ -194,7 +196,7 @@ The colour palette was created using [Coolors](https://coolors.co/).
 ## Typography
 [Google Fonts](https://fonts.google.com/) was used to add the following fonts:
 - 'Playfair Display' is used for headings, this provides a visual contrast to the main body.
-- 'EB+Garamond Display' is mainly used for the body text, beutiful and clear to read for accessability.
+- 'Inter' is mainly used for the body text, beutiful and clear to read for accessability.
 
 [Fontjoy](https://fontjoy.com/) proveded the best contrast options 
 
