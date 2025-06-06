@@ -402,14 +402,13 @@ h3 {
   background-color: var(--section-bg-color);
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.2rem;
   margin: 30px 0px 20PX 0;
 }
 
 .section-heading {
   text-align: center;
   font-weight: bold;
-  margin: 30px 0px 10PX 0;
   letter-spacing: 2px;
 }
 
