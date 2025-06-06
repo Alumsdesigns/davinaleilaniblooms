@@ -635,7 +635,7 @@ textarea:invalid + span.error {
 .portfolio-gallery h2 {
   font-family: "Trirong", serif;
   font-size: 2em;
-  color: var(--black);;
+  color: var(--black);
   margin-bottom: 2rem;
 }
 
@@ -929,6 +929,25 @@ textarea:invalid + span.error {
   background: var(--white);
   color: var(--sand);
   outline: none;
+}
+
+.about-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 32px 0 32px 0;
+  width: 100%;
+  align-items: center;
+  background: var(--section-bg-color); 
+}
+
+.about-gallery img {
+  width: 90%;
+  max-width: 400px;
+  border-radius: 6px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px var(--black);
+  display: block;
 }
 
 @media (min-width: 768px) {
