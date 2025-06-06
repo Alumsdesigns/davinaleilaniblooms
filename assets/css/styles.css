@@ -226,7 +226,6 @@ h3 {
   transition: color 0.2s;
 }
 
-
 .db-overlay-nav li a:hover {
   list-style: none;
   color: var(--white);
@@ -258,13 +257,6 @@ h3 {
 
 .social-icons a:hover {
   color: var(--white);
-}
-
-.hero-video-section {
-  background-color: var(--lighter-sand-bg);
-  padding: 1rem;
-  text-align: center;
-  margin-top: 20px;
 }
 
 .video-container {
@@ -301,7 +293,6 @@ h3 {
   margin: 0 auto;
   padding-bottom: 20px;
 }
-
 
 .gallery-grid {
   display: flex;
@@ -388,7 +379,6 @@ h3 {
 
 .founder-bio h2 {
   text-align: center;
-  font-size: 1.3rem;
   margin-top: 1rem;
   letter-spacing: 1px;
   padding-bottom: 20px;
@@ -510,7 +500,7 @@ h3 {
     color: var(--black);
   }
 
-    .gallery-grid {
+  .gallery-grid {
     display: grid; 
     grid-template-columns: repeat(2, 1fr); 
     gap: 2rem; 
@@ -520,6 +510,14 @@ h3 {
   .gallery-item img {
     height: 400px; 
   }
+
+  .intro-text p {
+    font-size: 1.15rem;
+    letter-spacing: 0.5px;
+    max-width: 1200px;
+  }
+
+  
   
 }
 
@@ -548,7 +546,7 @@ h3 {
     font-size: 1.5rem;
   }
 
-    .gallery-grid {
+  .gallery-grid {
     gap: 2.5rem; 
   }
 
