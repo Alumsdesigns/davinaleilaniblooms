@@ -1,4 +1,4 @@
-#DAVINALEILANIBLOOMS 
+# DAVINALEILANIBLOOMS 
 
 DAVINALEILANIBLOOMS is a luxury faux flower design studio providing elegant, sustainable floral decor for hire at events. The studio offers bespoke floral designs tailored for occasions such as weddings, corporate events, and private parties. The website serves as an informational and visual portfolio, showcasing past work and enabling prospective clients to engage and make inquiries.
 
