@@ -285,7 +285,6 @@ h3 {
   gap: 10px;
 }
 
-
 .footer-item.contact,
 .footer-item.location,
 .footer-item.social {
@@ -1169,7 +1168,7 @@ textarea:invalid + span.error {
   .about-gallery {
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     gap: 40px; 
     padding: 40px 0 40px 0;
     max-width: 1400px;
