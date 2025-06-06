@@ -65,6 +65,7 @@ Designed for intuitive user experience, the website features a clear navigation 
 
 - All pages feature:
 - Responsive Top and Footer Navigations with various means to get in contact and interact with the business:
+
 ### The responsive top naviagtion header across all pages features:
 - Fully responsive navigation and interaction. On mobile, it displays in a single column, with a hamburger icon on the far left and the DavinaLeilaniBlooms logo (linking to the homepage) centrally located. 
  For tablet and desktop screens, the layout expands to a multi-column/grid view: the site logo and main menu links (Home, About, Portfolio, Contact Us) appear on the left, with the "Contact Us" link specifically aligned to the far right, and all navigation content centered.
@@ -80,8 +81,8 @@ Designed for intuitive user experience, the website features a clear navigation 
  ![Header](/assets/images/clickable-to-beige.png)
  <!-- ![Header](/assets/images/clickable-to-white.png) -->
 
-### The responsive bottom naviagtion footer across all pages features:
-Everything the top navigation features with the DavinaLeilaniBlooms logo displaying bottom and central to assist with branding.
+### The responsive 'Footer' bottom naviagtion footer across all pages features:
+Everything the top navigation features with the DavinaLeilaniBlooms logo displaying bottom and central to assist with branding. - The email address, phone number and location are clickable (external) links.
 
  ![Header](/assets/images/footer.png)
 
@@ -95,24 +96,32 @@ Everything the top navigation features with the DavinaLeilaniBlooms logo display
 !['Home' page features](/assets/images/home-page.png)
 !['Home' page features](/assets/images/cta-end-home-page.png)
 
-The 'Contact' page:
+###  The 'Contact' page:
 - Website offers multiple avenues for prospective clients to connect, ensuring convenient and professional communication.
 - contact details for DavinaLeilaniBlooms, includes a telephone number, email address, and studio location.
-- The contact form contains intuitive event type selection allows clients to specify the nature of their celebration – whether it's a wedding, corporate event, or private party – ensuring we understand their unique requirements from the outset.
+- The contact form contains intuitive radio event type selection catering to clients specify needs given the nature of their celebration – whether it's a wedding, corporate event, or private party – ensuring we understand their unique requirements from the outset.
 - The form includes a mandatory input field for the event date, ensuring all submissions provide this crucial detail.
 - Users can submit their inquiry by activating the 'Submit' button, conveniently located beneath the date of event  input field.
-- A feedback modal pops up once the end user submits to reassure them there query has been submitted successfully.
+- A feedback modal pops up once the end user submits to reassure them there query has been submitted successfully. At present this is just for testing with plans to activate it with Javascript further down the line. Added features such as the calender using html5 where users can interact and pick a date along with instruction in red outlined below, guiding clients on what they need to do, ensuring an enjoyable experience.
 - Seamlessly integrated responsive icons allow users to connect with DavinaLeilaniBlooms across all active social media platforms, including Instagram, Facebook, X, and YouTube.
-- The email address and phone number are clickable (external) links.
+- The email address, phone number and location are clickable (external) links.
 
 !['Contact' page features](/assets/images/contact.png)
+!['Contact' page features](/assets/images/contact-form.png)
 !['Contact' page features](/assets/images/interactive-modal-feedback.png)
 
 
 
-The ‘Portfolio’ page:
-- The images have a soft and elegant look that showcases a curated collection of exquisite luxury faux floral arrangements. 
+###  The ‘Portfolio’ page:
+- Images tell a thousand words. The images have a soft and elegant look that showcases a curated collection of exquisite luxury faux floral arrangements showcasing different events and aspects of events that we hosted in the past. 
 - These compelling visuals offer a glimpse into the artistry, inspiring clients and demonstrating the beauty that was created for weddings, private celebrations, and bespoke events.
+
+
+###  The ‘About’ page:
+- Hero Section: Brand & Founder Introduction. Visual Hook with Hero Image and h1 with Core Message
+- Founder Profile: Meet Davina Leilani, personal story and brand values.
+- Team Member Spotlights Responsive section, with a picture, name, title and introductary informaton.
+-  An about Gallery showcasing some more through the visual portfolio lens 
 
 
 
