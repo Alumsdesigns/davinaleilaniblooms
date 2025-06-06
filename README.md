@@ -256,10 +256,7 @@ CSS AND ccs - to add style to the website.
 
 [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - Used to validate the CSS file.
 
-[PageSpeed Insights](https://pagespeed.web.dev/) - Used to generate lighthouse report for 404 error page as lighthouse was unable to load the page when used in Chrome Developer Tools.
-
-[cANVA](https://www.canva.com/) - Used to Canva for design
-
+[Canva](https://www.canva.com/) - Used to Canva for design
 
 
 ---
