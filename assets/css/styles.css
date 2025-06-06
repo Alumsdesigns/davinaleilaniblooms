@@ -5,7 +5,7 @@
 
 :root {
   --sand: #c8b393;
-  --darksand: ##c1a885;
+  --darksand: #c1a885;
   --white: #fff;
   --black: #000;
   --error: #b00020;
@@ -67,6 +67,13 @@ h3 {
   font-family: "Playfair Display", serif;
   margin: 0;
   font-size: 1.2rem;
+}
+
+.custom-margin {
+  font-family: "Playfair Display", serif;
+  font-size: 1.2rem;
+  color: var(--black);
+  margin: 20px;
 }
 
 .db-header-inner {
@@ -321,6 +328,46 @@ h3 {
   font-weight: bold;
 }
 
+.portfolio {
+  padding: 0;
+  text-align: center;
+}
+
+#portfolio h1 {
+  color: var(--black);
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  margin: 0;
+  padding: 50px 0;
+  box-sizing: border-box;
+}
+
+#photos img {
+  width: 380px;
+  height: 380px;
+}
+
+#photos img {
+  width: 380px;
+  height: 570px;
+  flex-shrink: 0;
+  border-radius: 170px;
+  object-fit: cover;
+  margin: 10px;
+  max-width: 100%;
+}
+
 .video-container {
   max-width: 100%;
   max-height: 100vh;
@@ -356,6 +403,18 @@ h3 {
   padding-bottom: 20px;
 }
 
+.portfolio-gallery {
+  padding: 1.5rem;
+  background-color: var(--lighter-sand-bg);
+  text-align: center;
+}
+
+.portfolio-gallery h2 {
+  font-family: "Trirong", serif;
+  font-size: 2em;
+  color: var(--black);;
+  margin-bottom: 2rem;
+}
 
 .gallery-grid {
   display: flex;
@@ -402,7 +461,7 @@ h3 {
   background-color: var(--section-bg-color);
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1.5rem;
   margin: 30px 0px 20PX 0;
 }
 
@@ -559,6 +618,16 @@ h3 {
   .material-icons-outlined {
     font-size: 30px;
     color: var(--black);
+  }
+
+  #photos {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #photos {
+    gap: 40px;
   }
 
   .gallery-grid {
