@@ -741,7 +741,7 @@ textarea:invalid + span.error {
   text-align: center;
   max-width: 100vw;
   margin: 0 auto;
-  padding-bottom: 2rem;
+  padding-bottom: 20px;
 }
 
 .hero-image-about {
@@ -770,11 +770,12 @@ textarea:invalid + span.error {
   text-align: center;
   max-width: 90%;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 5px 20px;
 }
 
 .founder-text h2 {
   font-size: 1.5rem;
+  padding-top: 10px;
   margin-bottom: 0.5rem;
 }
 
@@ -1036,6 +1037,20 @@ textarea:invalid + span.error {
     color: var(--black);
   }
 
+  .about-hero {
+    text-align: center;
+    max-width: 100vw;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+  .founder-profile {
+    text-align: center;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px 20px;
+   }
+
   .photos {
     flex-direction: row;
     flex-wrap: wrap;
@@ -1101,6 +1116,7 @@ textarea:invalid + span.error {
 
   .founder-text h2 {
     font-size: 1.5rem;
+    padding-top: 20px;
   }
 
   .about-text p {
