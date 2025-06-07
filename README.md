@@ -429,4 +429,4 @@ Photographs were sourced from:
 *Note some images may have been renamed or deleted as the project evolves
 
 ## Acknowledgements
-- Thanks to code institute and w3schools for there support
+- Thanks to code institute and w3schools for their support
