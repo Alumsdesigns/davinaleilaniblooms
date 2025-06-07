@@ -351,7 +351,7 @@ h3 {
   gap: 20px;
   width: 100%;
   margin: 0;
-  padding: 40px 0;
+  padding: 20px 0;
   box-sizing: border-box;
 }
 
@@ -577,7 +577,7 @@ textarea:invalid + span.error {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  /* background: var(--sand); */
+  background: var(--sand);
 }
 
 .video-container {
@@ -1040,6 +1040,7 @@ textarea:invalid + span.error {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 30px 0;
     gap: 40px;
   }
 
@@ -1319,6 +1320,10 @@ textarea:invalid + span.error {
     max-width: 400px;
     min-width: 400px;
     aspect-ratio: 1/1;
+  }
+
+   .photos {
+    padding: 40px 0;
   }
 
 }
