@@ -1137,8 +1137,7 @@ textarea:invalid + span.error {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* align-items: flex-start; */
-    /* flex-wrap: wrap; */
+    align-items: flex-start;
     padding: 10px;
     overflow: hidden;
   }
