@@ -10,7 +10,7 @@ Its primary audience includes individuals planning events who are interested in 
 
 ![Mock-up High Level Home Page Across Devices](/assets/images/mockup-homepage.png)
 
-[The website deployed can be found here]()
+[The website deployed can be found here](https://alumsdesigns.github.io/davinaleilaniblooms/)
 
 # Contents
 1. [User Experience (UX)](#1-user-experience-ux)
@@ -352,8 +352,8 @@ All remaining issues are **formatting-related warnings** caused by my VS Code fo
 ---
 
 # 6. Deployment and Local Development
-- Deplyment was deplyed on github due to global github maintanence see [Githubs announcements](https://www.githubstatus.com/)
-- Will be deploying today on github  
+- Deplyment was deplayed on github due to global github maintanence the end of May 2025 and github pages still isn't back to optimal performance with site launches taking 12hurs+ as of June 2025see [Githubs announcements](https://www.githubstatus.com/) the end of Amy
+- [View on githib pages](https://alumsdesigns.github.io/davinaleilaniblooms/) 
 
 ### How this site was deployed
 
@@ -362,7 +362,7 @@ All remaining issues are **formatting-related warnings** caused by my VS Code fo
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
 - Any changes pushed to the master branch will take effect on the live project
 
-  The live link can be found here - [DAVINALEILANI BLOOMS](https://.....github.io/...index.html) 
+  The live link can be found here - [DAVINALEILANI BLOOMS](https://alumsdesigns.github.io/davinaleilaniblooms/) 
 
 ### How to clone the repository
 
