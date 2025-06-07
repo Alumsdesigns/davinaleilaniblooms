@@ -186,7 +186,7 @@ Designed for intuitive user experience, the website features a clear navigation 
 ### Features which could be implemented in the future
 
 - Proper Form Validation with error feedback
-    - On a future iteration I hope to add proper form validation and error feedback for end users.
+    - On a future iteration I hope to add proper form validation and error feedback for end users, possible with javascript.
 
 ---
 
