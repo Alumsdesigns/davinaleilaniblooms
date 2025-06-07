@@ -10,7 +10,7 @@ Its primary audience includes individuals planning events who are interested in 
 
 ![Mock-up High Level Home Page Across Devices](/assets/images/mockup-homepage.png)
 
-[The website deployed can be found here](https://alumsdesigns.github.io/davinaleilaniblooms/)
+[View deployed Website "DAVINALEILANI BLOOMS"](https://alumsdesigns.github.io/davinaleilaniblooms/)
 
 # Contents
 1. [User Experience (UX)](#1-user-experience-ux)
@@ -70,15 +70,15 @@ Designed for intuitive user experience, the website features a clear navigation 
 - Fully responsive navigation and interaction. On mobile, it displays in a single column, with a hamburger icon on the far left and the DavinaLeilaniBlooms logo (linking to the homepage) centrally located. 
  For tablet and desktop screens, the layout expands to a multi-column/grid view: the site logo and main menu links (Home, About, Portfolio, Contact Us) appear on the left, with the "Contact Us" link specifically aligned to the far right, and all navigation content centered.
  
- ![Header](/assets/images/responsive%20home%20header.png)
+ ![Header](/assets/images/open-top-nav.png)
 
  - When the Hamburger icon is clicked it transforms smoothly into an "X" and an overlay navigation with links to Home, About, Portfolio, and Contact pops out, the cursor also turns to a hand when hovering clickable links here. All internal navigation links work as expected and make it a breeze to browse the site. The overlay has interactive internal links and social links along with relevent contact infomrmation. Want to call just click the icon and sit back. See images:
 
-  ![Header](/assets/images/hamburger-overlay-top-nav.png)
+  ![Header](/assets/images/top-nav-hamburger.png)
 
 - Social media icons and contact info accessible via navigation overlay. All clickable icons change color when hovered to white or beige and the cursor turns to a hand and leave an border to indicate active before opening external links to the there respective social platforms. See images:
 
- ![Header](/assets/images/clickable-to-beige.png)
+ ![Header](/assets/images/hamburger-overlay-top-nav.png)
  <!-- ![Header](/assets/images/clickable-to-white.png) -->
 
 ### The responsive 'Footer' bottom naviagtion footer across all pages features:

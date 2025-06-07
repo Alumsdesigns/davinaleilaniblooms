@@ -351,7 +351,7 @@ h3 {
   gap: 20px;
   width: 100%;
   margin: 0;
-  padding: 20px 0;
+  padding: 10px 0;
   box-sizing: border-box;
 }
 
@@ -791,10 +791,6 @@ textarea:invalid + span.error {
   font-size: 1rem;
 }
 
-.team-section {
-  padding: 2rem 1.5rem;
-}
-
 .team-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -810,17 +806,17 @@ textarea:invalid + span.error {
 .team-intro {
   text-align: center;
   font-size: 1rem;
-  max-width: 800px;
+  max-width: 80vw;
   margin: 0 auto 2rem auto;
   line-height: 1.6;
 }
-
 
 .team-grid {
   display: flex;
   flex-direction: column;
   gap: 3rem;
   align-items: center;
+  padding: 10px;
 }
 
 .team-member {
@@ -933,11 +929,9 @@ textarea:invalid + span.error {
 }
 
 .about-gallery img {
-  width: 90%;
-  max-width: 400px;
-  border-radius: 6px;
+  width: 100%;
+  max-width: 250px;
   object-fit: cover;
-  box-shadow: 0 2px 8px var(--black);
   display: block;
 }
 
@@ -1055,7 +1049,7 @@ textarea:invalid + span.error {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 30px 0;
+    padding: 10px 0;
     gap: 40px;
   }
 
@@ -1136,19 +1130,22 @@ textarea:invalid + span.error {
   .team-intro {
     font-size: 1.1rem;
     max-width: 1200px;
+    max-width: 80vw;
   }
 
   .team-grid {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    /* flex-wrap: wrap; */
+    padding: 10px;
+    overflow: hidden;
   }
 
   .team-member {
     flex: 1;
     text-align: left;
-    align-items: flex-start;
   }
 
   .member-description {
@@ -1175,7 +1172,7 @@ textarea:invalid + span.error {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px; 
+    gap: 20px; 
     padding: 40px 0 40px 0;
     max-width: 1400px;
     margin: 0 auto;
@@ -1183,10 +1180,17 @@ textarea:invalid + span.error {
 
   .about-gallery img {
     width: 100%;
-    max-width: 400px;
-    min-width: 400px;
+    max-width: 500px;
     aspect-ratio: 1/1;
-  }
+    overflow: hidden;
+  } 
+
+  .portfolio h1 {
+    color: var(--black);
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+}
   
 }
 
@@ -1332,14 +1336,7 @@ textarea:invalid + span.error {
   }
 
   .about-gallery img {
-    width: 100%;
     max-width: 400px;
-    min-width: 400px;
-    aspect-ratio: 1/1;
-  }
-
-   .photos {
-    padding: 40px 0;
   }
 
 }
