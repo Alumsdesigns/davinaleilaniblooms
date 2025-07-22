@@ -305,8 +305,22 @@ No css errors see image [W3C CSS Validator Testing](#css-no-errors-w3s-validator
 
 Contact and home report trailing white space however my formatter keets adding them back in, I will continue to work on this.
 
+### Unusal bug appeared sometime after deployment to githiub pages
 
-### reults from W3C HTML Validator as per image
+After deploying the site to GitHub Pages, I encountered an unexpected bug on the homepage where an image (purple-flower.jpg) stopped rendering, despite the file path being correct:
+./assets/images/home-page-images/purple-flower.jpg.
+
+Initially, the image rendered correctly, but at some point after deployment, it disappeared from the UI on the live site: https://alumsdesigns.github.io/davinaleilaniblooms/ 
+Upon investigation, I found that GitHub Pages did not recognize a case change to the first letter of the image filename (e.g., from Purple-flower.jpg to purple-flower.jpg). Even though the code and path in index.html were updated to the correct lowercase version, GitHub seems to have cached the old filename, causing the image not to load.
+
+Attempts to recommit or push again did not trigger a redeploy, as Git stated "branch is up to date." I am adding this change now in hopes it forces a redeployment and resolves the issue.
+
+<b>Screenshot Proof: </b>
+Includes the image reference in index.html, the file in the folder, and the Git push output:
+ ![See proof in image, time, push output, image name in index.html and images folder](assets/images/delayed-bug-after-deployment/bug-after-deployemnt-purle-flower-img.png) 
+
+
+### Reults from W3C HTML Validator as per image
 ## ✅ HTML & CSS Validation
 
 All errors reported by the [W3Schools HTML Validator](https://www.w3schools.com/html/html_validator.asp) have been **resolved**.
